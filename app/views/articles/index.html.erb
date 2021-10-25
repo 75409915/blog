@@ -1,2 +1,12 @@
-<h1>HOLA  CURSO 0061</h1>
+<h1>Listado de articulos</h1>
+
+<ul>
+
+<% @articles.each do |article| %>
+
+    
+    <li><%= article.title %></li>
+    <% end %>
+
+</ul> 
 
